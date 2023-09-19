@@ -54,6 +54,7 @@ dependencies {
     implementation("com.google.firebase:firebase-storage-ktx")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("com.github.bumptech.glide:glide:4.14.2")
+    implementation("com.google.firebase:firebase-database-ktx:20.2.2")
 
 
     testImplementation("junit:junit:4.13.2")

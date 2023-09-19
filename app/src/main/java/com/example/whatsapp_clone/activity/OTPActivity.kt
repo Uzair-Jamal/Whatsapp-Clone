@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.example.whatsapp_clone.R
 import com.example.whatsapp_clone.databinding.ActivityOtpactivityBinding
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.FirebaseAuth
@@ -45,7 +44,6 @@ class OTPActivity : AppCompatActivity() {
             .setActivity(this)
             .setCallbacks(object: PhoneAuthProvider.OnVerificationStateChangedCallbacks(){
                 override fun onVerificationCompleted(p0: PhoneAuthCredential) {
-
                 }
 
                 override fun onVerificationFailed(p0: FirebaseException) {
